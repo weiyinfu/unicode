@@ -1,0 +1,149 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Unicode区域</title>
+    <script src="https://cdn.bootcss.com/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.19.2/axios.min.js"></script>
+    <style>
+        html, body, #main {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #main {
+            display: flex;
+        }
+
+        table {
+            border-style: solid;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border-style: solid;
+        }
+
+        .left, .right {
+            width: 50%;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .right {
+            overflow-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+
+<div id="main" @keyup.right="nextPart" @keyup.left="prevPart" autofocus>
+    <div class="left">
+        <div>分区个数{{parts.length}}</div>
+        <div>字符个数{{totalCount}}</div>
+        <table>
+            <thead>
+            <tr>
+                <th>区间</th>
+                <th>名称</th>
+                <th>个数</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="(li,ind) in parts" :key="ind" @click="click(li)">
+                <td> {{li.beg}}-{{li.end}}</td>
+                <td> {{li.name}}</td>
+                <td>{{li.end-li.beg+1}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="right">
+        <div style="position: sticky;top: 0;background-color: white">
+            <span style="font-size: 35px">{{chosenPart.name}}({{rightText.length}}个)</span>
+            <div>字体大小：{{fontSize}}px
+                <input type="range" v-model="fontSize" :min="20" :max="50" :step="1"></input>
+            </div>
+            <div style="display: flex;">
+                <button class="nextButton" style="width: 50%;height:30px;" @click="prevPart">上一个</button>
+                <button class="nextButton" style="width: 50%;height:30px;" @click="nextPart">下一个</button>
+            </div>
+        </div>
+        <div :style="textStyle">
+            <span v-for="i in rightText"  style="display:inline-block;">{{i}}</span>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script>
+    var main = {
+        el: '#main',
+        data() {
+            return {
+                parts: [],
+                chosen: 1,
+                fontSize: 25
+            }
+        },
+        computed: {
+            totalCount() {
+                return this.parts.reduce((s, now) => s + now.end - now.beg + 1, 0)
+            },
+            chosenPart() {
+                if (this.parts.length === 0)
+                    return {
+                        id: -1,
+                        name: "点击右侧表格查看字符",
+                        beg: 0, end: 0
+                    }
+                else
+                    return this.parts[this.chosen]
+            },
+            rightText() {
+                var li = this.chosenPart
+                var codes = []
+                for (var i = li.beg; i <= li.end; i++) {
+                    var ch = String.fromCodePoint(i)
+                    codes.push(ch)
+                }
+                return codes
+            },
+            textStyle() {
+                return {
+                    "font-size": this.fontSize + "px",
+                }
+            }
+        },
+        mounted() {
+            axios.get("/parts.json").then(resp => {
+                this.parts = resp.data
+                for (var i = 0; i < this.parts.length; i++) {
+                    this.parts[i].id = i
+                }
+            })
+        },
+        methods: {
+            click(li) {
+                this.chosen = li.id
+            },
+            prevPart() {
+                this.chosen--;
+                if (this.chosen < 0) this.chosen = 0
+            },
+            nextPart() {
+                this.chosen++
+                if (this.chosen === this.parts.length) this.chosen = this.parts.length - 1
+            }
+        }
+    }
+    var haha = null
+    document.onreadystatechange = () => {
+        if (document.readyState !== 'complete') return
+        main.el = "#main"
+        haha = new Vue(main)
+    }
+
+</script>
+</html>

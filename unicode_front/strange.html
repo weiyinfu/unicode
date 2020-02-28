@@ -1,0 +1,33 @@
+<html>
+<head></head>
+<body>
+<h1>一件奇怪的事情</h1>
+bad:直接一个字符串
+<div id="bad"></div>
+bad2:每个字符都是span
+<div id="bad2"></div>
+good:每个字符都是一个inline-block
+<div id="good"></div>
+</body>
+<script>
+    var code = [127136, 127199]
+    var s = []
+    for (var i = code[0]; i <= code[1]; i++) {
+        s.push(String.fromCodePoint(i))
+    }
+
+    function $(sel) {
+        return document.querySelector(sel)
+    }
+
+    $('#bad').innerText = s.join('')
+    for (var i of s) {
+        var span = document.createElement('span')
+        var badSpan = document.createElement('span')
+        span.innerText = badSpan.innerText = i
+        span.style = 'display:inline-block'
+        $('#good').appendChild(span)
+        $("#bad2").appendChild(badSpan)
+    }
+</script>
+</html>

@@ -1,0 +1,1397 @@
+[
+  {
+    "beg": 0,
+    "end": 31,
+    "name": "控制字符"
+  },
+  {
+    "beg": 32,
+    "end": 127,
+    "name": "基本拉丁字母"
+  },
+  {
+    "beg": 128,
+    "end": 255,
+    "name": "拉丁文补充1"
+  },
+  {
+    "beg": 256,
+    "end": 383,
+    "name": "拉丁文扩展A"
+  },
+  {
+    "beg": 384,
+    "end": 591,
+    "name": "拉丁文扩展B"
+  },
+  {
+    "beg": 592,
+    "end": 687,
+    "name": "国际音标扩展"
+  },
+  {
+    "beg": 688,
+    "end": 767,
+    "name": "占位修饰符号"
+  },
+  {
+    "beg": 768,
+    "end": 879,
+    "name": "结合附加符号"
+  },
+  {
+    "beg": 880,
+    "end": 1023,
+    "name": "希腊字母及科普特字母"
+  },
+  {
+    "beg": 1024,
+    "end": 1279,
+    "name": "西里尔字母"
+  },
+  {
+    "beg": 1280,
+    "end": 1327,
+    "name": "西里尔字母补充"
+  },
+  {
+    "beg": 1328,
+    "end": 1423,
+    "name": "亚美尼亚字母"
+  },
+  {
+    "beg": 1424,
+    "end": 1535,
+    "name": "希伯来文"
+  },
+  {
+    "beg": 1536,
+    "end": 1791,
+    "name": "阿拉伯文"
+  },
+  {
+    "beg": 1792,
+    "end": 1871,
+    "name": "叙利亚文"
+  },
+  {
+    "beg": 1872,
+    "end": 1919,
+    "name": "阿拉伯文补充"
+  },
+  {
+    "beg": 1920,
+    "end": 1983,
+    "name": "它拿字母"
+  },
+  {
+    "beg": 1984,
+    "end": 2047,
+    "name": "西非书面语言"
+  },
+  {
+    "beg": 2048,
+    "end": 2111,
+    "name": "撒玛利亚字母"
+  },
+  {
+    "beg": 2112,
+    "end": 2143,
+    "name": "Mandaic"
+  },
+  {
+    "beg": 2144,
+    "end": 2159,
+    "name": "Syriac Supplement"
+  },
+  {
+    "beg": 2208,
+    "end": 2303,
+    "name": "阿拉伯语扩展"
+  },
+  {
+    "beg": 2304,
+    "end": 2431,
+    "name": "天城文"
+  },
+  {
+    "beg": 2432,
+    "end": 2559,
+    "name": "孟加拉文"
+  },
+  {
+    "beg": 2560,
+    "end": 2687,
+    "name": "果鲁穆奇字母"
+  },
+  {
+    "beg": 2688,
+    "end": 2815,
+    "name": "古吉拉特文"
+  },
+  {
+    "beg": 2816,
+    "end": 2943,
+    "name": "奥里亚文"
+  },
+  {
+    "beg": 2944,
+    "end": 3071,
+    "name": "泰米尔文"
+  },
+  {
+    "beg": 3072,
+    "end": 3199,
+    "name": "泰卢固文"
+  },
+  {
+    "beg": 3200,
+    "end": 3327,
+    "name": "卡纳达文"
+  },
+  {
+    "beg": 3328,
+    "end": 3455,
+    "name": "马拉雅拉姆文"
+  },
+  {
+    "beg": 3456,
+    "end": 3583,
+    "name": "僧伽罗文"
+  },
+  {
+    "beg": 3584,
+    "end": 3711,
+    "name": "泰文"
+  },
+  {
+    "beg": 3712,
+    "end": 3839,
+    "name": "老挝文"
+  },
+  {
+    "beg": 3840,
+    "end": 4095,
+    "name": "藏文"
+  },
+  {
+    "beg": 4096,
+    "end": 4255,
+    "name": "缅甸文"
+  },
+  {
+    "beg": 4256,
+    "end": 4351,
+    "name": "格鲁吉亚字母"
+  },
+  {
+    "beg": 4352,
+    "end": 4607,
+    "name": "韩文字母"
+  },
+  {
+    "beg": 4608,
+    "end": 4991,
+    "name": "埃塞俄比亚语"
+  },
+  {
+    "beg": 4992,
+    "end": 5023,
+    "name": "埃塞俄比亚语补充"
+  },
+  {
+    "beg": 5024,
+    "end": 5119,
+    "name": "切罗基字母"
+  },
+  {
+    "beg": 5120,
+    "end": 5759,
+    "name": "统一加拿大原住民音节文字"
+  },
+  {
+    "beg": 5760,
+    "end": 5791,
+    "name": "欧甘字母"
+  },
+  {
+    "beg": 5792,
+    "end": 5887,
+    "name": "卢恩字母"
+  },
+  {
+    "beg": 5888,
+    "end": 5919,
+    "name": "他加禄字母"
+  },
+  {
+    "beg": 5920,
+    "end": 5951,
+    "name": "哈努诺文"
+  },
+  {
+    "beg": 5952,
+    "end": 5983,
+    "name": "布迪文"
+  },
+  {
+    "beg": 5984,
+    "end": 6015,
+    "name": "塔格巴努亚文"
+  },
+  {
+    "beg": 6016,
+    "end": 6143,
+    "name": "高棉文"
+  },
+  {
+    "beg": 6144,
+    "end": 6319,
+    "name": "蒙古文"
+  },
+  {
+    "beg": 6320,
+    "end": 6399,
+    "name": "统一加拿大原住民音节文字扩展"
+  },
+  {
+    "beg": 6400,
+    "end": 6479,
+    "name": "林布文"
+  },
+  {
+    "beg": 6480,
+    "end": 6527,
+    "name": "德宏傣文"
+  },
+  {
+    "beg": 6528,
+    "end": 6623,
+    "name": "新傣仂文"
+  },
+  {
+    "beg": 6624,
+    "end": 6655,
+    "name": "高棉文符号"
+  },
+  {
+    "beg": 6656,
+    "end": 6687,
+    "name": "布吉文"
+  },
+  {
+    "beg": 6688,
+    "end": 6831,
+    "name": "老傣文"
+  },
+  {
+    "beg": 6832,
+    "end": 6911,
+    "name": "Combining Diacritical Marks Extended"
+  },
+  {
+    "beg": 6912,
+    "end": 7039,
+    "name": "巴厘字母"
+  },
+  {
+    "beg": 7040,
+    "end": 7103,
+    "name": "巽他字母"
+  },
+  {
+    "beg": 7104,
+    "end": 7167,
+    "name": "巴塔克文"
+  },
+  {
+    "beg": 7168,
+    "end": 7247,
+    "name": "雷布查字母"
+  },
+  {
+    "beg": 7248,
+    "end": 7295,
+    "name": "Ol-Chiki"
+  },
+  {
+    "beg": 7296,
+    "end": 7311,
+    "name": "Cyrillic Extended C"
+  },
+  {
+    "beg": 7360,
+    "end": 7375,
+    "name": "巽他字母补充"
+  },
+  {
+    "beg": 7376,
+    "end": 7423,
+    "name": "吠陀梵文"
+  },
+  {
+    "beg": 7424,
+    "end": 7551,
+    "name": "语音学扩展"
+  },
+  {
+    "beg": 7552,
+    "end": 7615,
+    "name": "语音学扩展补充"
+  },
+  {
+    "beg": 7616,
+    "end": 7679,
+    "name": "结合附加符号补充"
+  },
+  {
+    "beg": 7680,
+    "end": 7935,
+    "name": "拉丁文扩展附加"
+  },
+  {
+    "beg": 7936,
+    "end": 8191,
+    "name": "希腊语扩展"
+  },
+  {
+    "beg": 8192,
+    "end": 8303,
+    "name": "常用标点"
+  },
+  {
+    "beg": 8304,
+    "end": 8351,
+    "name": "上标及下标"
+  },
+  {
+    "beg": 8352,
+    "end": 8399,
+    "name": "货币符号"
+  },
+  {
+    "beg": 8400,
+    "end": 8447,
+    "name": "组合用记号"
+  },
+  {
+    "beg": 8448,
+    "end": 8527,
+    "name": "字母式符号"
+  },
+  {
+    "beg": 8528,
+    "end": 8591,
+    "name": "数字形式"
+  },
+  {
+    "beg": 8592,
+    "end": 8703,
+    "name": "箭头"
+  },
+  {
+    "beg": 8704,
+    "end": 8959,
+    "name": "数学运算符"
+  },
+  {
+    "beg": 8960,
+    "end": 9215,
+    "name": "杂项工业符号"
+  },
+  {
+    "beg": 9216,
+    "end": 9279,
+    "name": "控制图片"
+  },
+  {
+    "beg": 9280,
+    "end": 9311,
+    "name": "光学识别符"
+  },
+  {
+    "beg": 9312,
+    "end": 9471,
+    "name": "带圈或括号的字母数字"
+  },
+  {
+    "beg": 9472,
+    "end": 9599,
+    "name": "制表符"
+  },
+  {
+    "beg": 9600,
+    "end": 9631,
+    "name": "方块元素"
+  },
+  {
+    "beg": 9632,
+    "end": 9727,
+    "name": "几何图形"
+  },
+  {
+    "beg": 9728,
+    "end": 9983,
+    "name": "杂项符号(八卦和象棋)"
+  },
+  {
+    "beg": 9984,
+    "end": 10175,
+    "name": "印刷符号"
+  },
+  {
+    "beg": 10176,
+    "end": 10223,
+    "name": "杂项数学符号A"
+  },
+  {
+    "beg": 10224,
+    "end": 10239,
+    "name": "追加箭头A"
+  },
+  {
+    "beg": 10240,
+    "end": 10495,
+    "name": "盲文点字模型"
+  },
+  {
+    "beg": 10496,
+    "end": 10623,
+    "name": "追加箭头B"
+  },
+  {
+    "beg": 10624,
+    "end": 10751,
+    "name": "杂项数学符号B"
+  },
+  {
+    "beg": 10752,
+    "end": 11007,
+    "name": "追加数学运算符"
+  },
+  {
+    "beg": 11008,
+    "end": 11263,
+    "name": "杂项符号和箭头"
+  },
+  {
+    "beg": 11264,
+    "end": 11359,
+    "name": "格拉哥里字母"
+  },
+  {
+    "beg": 11360,
+    "end": 11391,
+    "name": "拉丁文扩展C"
+  },
+  {
+    "beg": 11392,
+    "end": 11519,
+    "name": "科普特字母"
+  },
+  {
+    "beg": 11520,
+    "end": 11567,
+    "name": "格鲁吉亚字母补充"
+  },
+  {
+    "beg": 11568,
+    "end": 11647,
+    "name": "提非纳文"
+  },
+  {
+    "beg": 11648,
+    "end": 11743,
+    "name": "埃塞俄比亚语扩展"
+  },
+  {
+    "beg": 11744,
+    "end": 11775,
+    "name": "西里尔字母扩展"
+  },
+  {
+    "beg": 11776,
+    "end": 11903,
+    "name": "追加标点"
+  },
+  {
+    "beg": 11904,
+    "end": 12031,
+    "name": "中日韩部首补充"
+  },
+  {
+    "beg": 12032,
+    "end": 12255,
+    "name": "康熙部首"
+  },
+  {
+    "beg": 12272,
+    "end": 12287,
+    "name": "表意文字描述符"
+  },
+  {
+    "beg": 12288,
+    "end": 12351,
+    "name": "中日韩符号和标点"
+  },
+  {
+    "beg": 12352,
+    "end": 12447,
+    "name": "日文平假名"
+  },
+  {
+    "beg": 12448,
+    "end": 12543,
+    "name": "日文片假名"
+  },
+  {
+    "beg": 12544,
+    "end": 12591,
+    "name": "注音字母"
+  },
+  {
+    "beg": 12592,
+    "end": 12687,
+    "name": "韩文兼容字母"
+  },
+  {
+    "beg": 12688,
+    "end": 12703,
+    "name": "象形字注释标志"
+  },
+  {
+    "beg": 12704,
+    "end": 12735,
+    "name": "注音字母扩展"
+  },
+  {
+    "beg": 12736,
+    "end": 12783,
+    "name": "中日韩笔画"
+  },
+  {
+    "beg": 12784,
+    "end": 12799,
+    "name": "日文片假名语音扩展"
+  },
+  {
+    "beg": 12800,
+    "end": 13055,
+    "name": "带圈中日韩字母和月份"
+  },
+  {
+    "beg": 13056,
+    "end": 13311,
+    "name": "中日韩字符集兼容"
+  },
+  {
+    "beg": 13312,
+    "end": 19903,
+    "name": "中日韩统一表意文字扩展A"
+  },
+  {
+    "beg": 19904,
+    "end": 19967,
+    "name": "易经六十四卦符号"
+  },
+  {
+    "beg": 19968,
+    "end": 40959,
+    "name": "中日韩统一表意文字"
+  },
+  {
+    "beg": 40960,
+    "end": 42127,
+    "name": "彝文音节"
+  },
+  {
+    "beg": 42128,
+    "end": 42191,
+    "name": "彝文字根"
+  },
+  {
+    "beg": 42192,
+    "end": 42239,
+    "name": "Lisu"
+  },
+  {
+    "beg": 42240,
+    "end": 42559,
+    "name": "老傈僳文"
+  },
+  {
+    "beg": 42560,
+    "end": 42655,
+    "name": "西里尔字母扩展B"
+  },
+  {
+    "beg": 42656,
+    "end": 42751,
+    "name": "巴姆穆语"
+  },
+  {
+    "beg": 42752,
+    "end": 42783,
+    "name": "声调修饰字母"
+  },
+  {
+    "beg": 42784,
+    "end": 43007,
+    "name": "拉丁文扩展D"
+  },
+  {
+    "beg": 43008,
+    "end": 43055,
+    "name": "锡尔赫特文"
+  },
+  {
+    "beg": 43056,
+    "end": 43071,
+    "name": "印第安数字"
+  },
+  {
+    "beg": 43072,
+    "end": 43135,
+    "name": "八思巴文"
+  },
+  {
+    "beg": 43136,
+    "end": 43231,
+    "name": "索拉什特拉"
+  },
+  {
+    "beg": 43232,
+    "end": 43263,
+    "name": "天城文扩展"
+  },
+  {
+    "beg": 43264,
+    "end": 43311,
+    "name": "克耶字母"
+  },
+  {
+    "beg": 43312,
+    "end": 43359,
+    "name": "勒姜语"
+  },
+  {
+    "beg": 43360,
+    "end": 43391,
+    "name": "韩文字母扩展A"
+  },
+  {
+    "beg": 43392,
+    "end": 43487,
+    "name": "爪哇语"
+  },
+  {
+    "beg": 43488,
+    "end": 43519,
+    "name": "Myanmar Extended-B"
+  },
+  {
+    "beg": 43520,
+    "end": 43615,
+    "name": "鞑靼文"
+  },
+  {
+    "beg": 43616,
+    "end": 43647,
+    "name": "缅甸语扩展"
+  },
+  {
+    "beg": 43648,
+    "end": 43743,
+    "name": "越南傣文"
+  },
+  {
+    "beg": 43744,
+    "end": 43775,
+    "name": "曼尼普尔文扩展"
+  },
+  {
+    "beg": 43776,
+    "end": 43823,
+    "name": "埃塞俄比亚文"
+  },
+  {
+    "beg": 43824,
+    "end": 43887,
+    "name": "Latin Extended-E"
+  },
+  {
+    "beg": 43888,
+    "end": 43967,
+    "name": "Cherokee Supplement"
+  },
+  {
+    "beg": 43968,
+    "end": 44031,
+    "name": "曼尼普尔文"
+  },
+  {
+    "beg": 44032,
+    "end": 55215,
+    "name": "韩文音节"
+  },
+  {
+    "beg": 55216,
+    "end": 55295,
+    "name": "Hangul Jamo Extended-B"
+  },
+  {
+    "beg": 55296,
+    "end": 56191,
+    "name": "代理对高位字"
+  },
+  {
+    "beg": 56192,
+    "end": 56319,
+    "name": "代理对私用区高位字"
+  },
+  {
+    "beg": 56320,
+    "end": 57343,
+    "name": "代理对低位字"
+  },
+  {
+    "beg": 57344,
+    "end": 63743,
+    "name": "私用区"
+  },
+  {
+    "beg": 63744,
+    "end": 64255,
+    "name": "中日韩兼容表意文字"
+  },
+  {
+    "beg": 64256,
+    "end": 64335,
+    "name": "字母表达形式（拉丁字母连字、亚美尼亚字母连字、希伯来文表现形式）"
+  },
+  {
+    "beg": 64336,
+    "end": 65023,
+    "name": "阿拉伯文表达形式A"
+  },
+  {
+    "beg": 65024,
+    "end": 65039,
+    "name": "异体字选择符"
+  },
+  {
+    "beg": 65040,
+    "end": 65055,
+    "name": "竖排形式"
+  },
+  {
+    "beg": 65056,
+    "end": 65071,
+    "name": "组合用半符号"
+  },
+  {
+    "beg": 65072,
+    "end": 65103,
+    "name": "中日韩兼容形式"
+  },
+  {
+    "beg": 65104,
+    "end": 65135,
+    "name": "小写变体形式"
+  },
+  {
+    "beg": 65136,
+    "end": 65279,
+    "name": "阿拉伯文表达形式B"
+  },
+  {
+    "beg": 65280,
+    "end": 65519,
+    "name": "半角及全角形式"
+  },
+  {
+    "beg": 65520,
+    "end": 65535,
+    "name": "特殊"
+  },
+  {
+    "beg": 65536,
+    "end": 65663,
+    "name": "Linear B Syllabary"
+  },
+  {
+    "beg": 65664,
+    "end": 65791,
+    "name": "Linear B Ideograms"
+  },
+  {
+    "beg": 65792,
+    "end": 65855,
+    "name": "Aegean Numbers"
+  },
+  {
+    "beg": 65856,
+    "end": 65935,
+    "name": "Ancient Greek Numbers"
+  },
+  {
+    "beg": 65936,
+    "end": 65999,
+    "name": "Ancient Symbols"
+  },
+  {
+    "beg": 66000,
+    "end": 66047,
+    "name": "Phaistos Disc"
+  },
+  {
+    "beg": 66176,
+    "end": 66207,
+    "name": "Lycian"
+  },
+  {
+    "beg": 66208,
+    "end": 66271,
+    "name": "Carian"
+  },
+  {
+    "beg": 66272,
+    "end": 66303,
+    "name": "Coptic Epact Numbers"
+  },
+  {
+    "beg": 66304,
+    "end": 66351,
+    "name": "Old Italic"
+  },
+  {
+    "beg": 66352,
+    "end": 66383,
+    "name": "Gothic"
+  },
+  {
+    "beg": 66384,
+    "end": 66431,
+    "name": "Old Permic"
+  },
+  {
+    "beg": 66432,
+    "end": 66463,
+    "name": "Ugaritic"
+  },
+  {
+    "beg": 66464,
+    "end": 66527,
+    "name": "Old Persian"
+  },
+  {
+    "beg": 66560,
+    "end": 66639,
+    "name": "Deseret"
+  },
+  {
+    "beg": 66640,
+    "end": 66687,
+    "name": "Shavian"
+  },
+  {
+    "beg": 66688,
+    "end": 66735,
+    "name": "Osmanya"
+  },
+  {
+    "beg": 66736,
+    "end": 66815,
+    "name": "Osage"
+  },
+  {
+    "beg": 66816,
+    "end": 66863,
+    "name": "Elbasan"
+  },
+  {
+    "beg": 66864,
+    "end": 66927,
+    "name": "Caucasian Albanian"
+  },
+  {
+    "beg": 67072,
+    "end": 67455,
+    "name": "Linear A"
+  },
+  {
+    "beg": 67584,
+    "end": 67647,
+    "name": "Cypriot Syllabary"
+  },
+  {
+    "beg": 67648,
+    "end": 67679,
+    "name": "Imperial Aramaic"
+  },
+  {
+    "beg": 67680,
+    "end": 67711,
+    "name": "Palmyrene"
+  },
+  {
+    "beg": 67712,
+    "end": 67759,
+    "name": "Nabataean"
+  },
+  {
+    "beg": 67808,
+    "end": 67839,
+    "name": "Hatran"
+  },
+  {
+    "beg": 67840,
+    "end": 67871,
+    "name": "Phoenician"
+  },
+  {
+    "beg": 67872,
+    "end": 67903,
+    "name": "Lydian"
+  },
+  {
+    "beg": 67968,
+    "end": 67999,
+    "name": "Meroitic Hieroglyphs"
+  },
+  {
+    "beg": 68000,
+    "end": 68095,
+    "name": "Meroitic Cursive"
+  },
+  {
+    "beg": 68096,
+    "end": 68191,
+    "name": "Kharoshthi"
+  },
+  {
+    "beg": 68192,
+    "end": 68223,
+    "name": "Old South Arabian"
+  },
+  {
+    "beg": 68224,
+    "end": 68255,
+    "name": "Old North Arabian"
+  },
+  {
+    "beg": 68288,
+    "end": 68351,
+    "name": "Manichaean"
+  },
+  {
+    "beg": 68352,
+    "end": 68415,
+    "name": "Avestan"
+  },
+  {
+    "beg": 68416,
+    "end": 68447,
+    "name": "Inscriptional Parthian"
+  },
+  {
+    "beg": 68448,
+    "end": 68479,
+    "name": "Inscriptional Pahlavi"
+  },
+  {
+    "beg": 68480,
+    "end": 68527,
+    "name": "Psalter Pahlavi"
+  },
+  {
+    "beg": 68608,
+    "end": 68687,
+    "name": "Old Turkic"
+  },
+  {
+    "beg": 68736,
+    "end": 68863,
+    "name": "Old Hungarian"
+  },
+  {
+    "beg": 69216,
+    "end": 69247,
+    "name": "Rumi Numeral Symbols"
+  },
+  {
+    "beg": 69632,
+    "end": 69759,
+    "name": "Brahmi"
+  },
+  {
+    "beg": 69760,
+    "end": 69839,
+    "name": "Kaithi"
+  },
+  {
+    "beg": 69840,
+    "end": 69887,
+    "name": "Sora Sompeng"
+  },
+  {
+    "beg": 69888,
+    "end": 69967,
+    "name": "Chakma"
+  },
+  {
+    "beg": 69968,
+    "end": 70015,
+    "name": "Mahajani"
+  },
+  {
+    "beg": 70016,
+    "end": 70111,
+    "name": "Sharada"
+  },
+  {
+    "beg": 70112,
+    "end": 70143,
+    "name": "Sinhala Archaic Numbers"
+  },
+  {
+    "beg": 70144,
+    "end": 70223,
+    "name": "Khojki"
+  },
+  {
+    "beg": 70272,
+    "end": 70319,
+    "name": "Multani"
+  },
+  {
+    "beg": 70320,
+    "end": 70399,
+    "name": "Khudawadi"
+  },
+  {
+    "beg": 70400,
+    "end": 70527,
+    "name": "Grantha"
+  },
+  {
+    "beg": 70656,
+    "end": 70783,
+    "name": "Newa"
+  },
+  {
+    "beg": 70784,
+    "end": 70879,
+    "name": "Tirhuta"
+  },
+  {
+    "beg": 71040,
+    "end": 71167,
+    "name": "Siddham"
+  },
+  {
+    "beg": 71168,
+    "end": 71263,
+    "name": "Modi"
+  },
+  {
+    "beg": 71264,
+    "end": 71295,
+    "name": "Mongolian Supplement"
+  },
+  {
+    "beg": 71296,
+    "end": 71375,
+    "name": "Takri"
+  },
+  {
+    "beg": 71424,
+    "end": 71487,
+    "name": "Ahom"
+  },
+  {
+    "beg": 71840,
+    "end": 71935,
+    "name": "Warang Citi"
+  },
+  {
+    "beg": 72192,
+    "end": 72271,
+    "name": "Zanabazar Square"
+  },
+  {
+    "beg": 72272,
+    "end": 72367,
+    "name": "Soyombo"
+  },
+  {
+    "beg": 72384,
+    "end": 72447,
+    "name": "Pau Cin Hau"
+  },
+  {
+    "beg": 72704,
+    "end": 72815,
+    "name": "Bhaiksuki"
+  },
+  {
+    "beg": 72816,
+    "end": 72895,
+    "name": "Marchen"
+  },
+  {
+    "beg": 72960,
+    "end": 73055,
+    "name": "Masaram Gondi"
+  },
+  {
+    "beg": 73728,
+    "end": 74751,
+    "name": "Cuneiform"
+  },
+  {
+    "beg": 74752,
+    "end": 74879,
+    "name": "Cuneiform Numbers and Punctuation"
+  },
+  {
+    "beg": 74880,
+    "end": 75087,
+    "name": "Early Dynastic Cuneiform"
+  },
+  {
+    "beg": 77824,
+    "end": 78895,
+    "name": "埃及象形文字"
+  },
+  {
+    "beg": 82944,
+    "end": 83583,
+    "name": "Anatolian Hieroglyphs"
+  },
+  {
+    "beg": 92160,
+    "end": 92735,
+    "name": "Bamum Supplement"
+  },
+  {
+    "beg": 92736,
+    "end": 92783,
+    "name": "Mro"
+  },
+  {
+    "beg": 92880,
+    "end": 92927,
+    "name": "Bassa Vah"
+  },
+  {
+    "beg": 92928,
+    "end": 93071,
+    "name": "Pahawh Hmong"
+  },
+  {
+    "beg": 93952,
+    "end": 94111,
+    "name": "Miao"
+  },
+  {
+    "beg": 94176,
+    "end": 94207,
+    "name": "Ideographic Symbols and Punctuation"
+  },
+  {
+    "beg": 94208,
+    "end": 100351,
+    "name": "Tangut"
+  },
+  {
+    "beg": 100352,
+    "end": 101119,
+    "name": "Tangut Components"
+  },
+  {
+    "beg": 110592,
+    "end": 110847,
+    "name": "Kana Supplement"
+  },
+  {
+    "beg": 110848,
+    "end": 110895,
+    "name": "Kana Extended-A"
+  },
+  {
+    "beg": 110960,
+    "end": 111359,
+    "name": "Nushu"
+  },
+  {
+    "beg": 113664,
+    "end": 113823,
+    "name": "Duployan"
+  },
+  {
+    "beg": 113824,
+    "end": 113839,
+    "name": "Shorthand Format Controls"
+  },
+  {
+    "beg": 118784,
+    "end": 119039,
+    "name": "拜占庭音乐符号"
+  },
+  {
+    "beg": 119040,
+    "end": 119295,
+    "name": "音乐符号"
+  },
+  {
+    "beg": 119296,
+    "end": 119375,
+    "name": "Ancient Greek Musical Notation"
+  },
+  {
+    "beg": 119552,
+    "end": 119647,
+    "name": "《太玄经》符号"
+  },
+  {
+    "beg": 119648,
+    "end": 119679,
+    "name": "Counting Rod Numerals"
+  },
+  {
+    "beg": 119808,
+    "end": 120831,
+    "name": "Mathematical Alphanumeric Symbols"
+  },
+  {
+    "beg": 120832,
+    "end": 121519,
+    "name": "Sutton SignWriting"
+  },
+  {
+    "beg": 122880,
+    "end": 122927,
+    "name": "Glagolitic Supplement"
+  },
+  {
+    "beg": 124928,
+    "end": 125151,
+    "name": "Mende Kikakui"
+  },
+  {
+    "beg": 125184,
+    "end": 125279,
+    "name": "Adlam"
+  },
+  {
+    "beg": 126464,
+    "end": 126719,
+    "name": "Arabic Mathematical Alphabetic Symbols"
+  },
+  {
+    "beg": 126976,
+    "end": 127023,
+    "name": "麻将"
+  },
+  {
+    "beg": 127024,
+    "end": 127135,
+    "name": "Domino Tiles"
+  },
+  {
+    "beg": 127136,
+    "end": 127231,
+    "name": "扑克牌"
+  },
+  {
+    "beg": 127232,
+    "end": 127487,
+    "name": "Enclosed Alphanumeric Supplement"
+  },
+  {
+    "beg": 127488,
+    "end": 127743,
+    "name": "Enclosed Ideographic Supplement"
+  },
+  {
+    "beg": 127744,
+    "end": 128511,
+    "name": "杂项符号和图标"
+  },
+  {
+    "beg": 128512,
+    "end": 128591,
+    "name": "Emoticons (Emoji)"
+  },
+  {
+    "beg": 128592,
+    "end": 128639,
+    "name": "Ornamental Dingbats"
+  },
+  {
+    "beg": 128640,
+    "end": 128767,
+    "name": "Transport and Map Symbols"
+  },
+  {
+    "beg": 128768,
+    "end": 128895,
+    "name": "Alchemical Symbols"
+  },
+  {
+    "beg": 128896,
+    "end": 129023,
+    "name": "Geometric Shapes Extended"
+  },
+  {
+    "beg": 129024,
+    "end": 129279,
+    "name": "Supplemental Arrows-C"
+  },
+  {
+    "beg": 129280,
+    "end": 129535,
+    "name": "Supplemental Symbols and Pictographs"
+  },
+  {
+    "beg": 131072,
+    "end": 173791,
+    "name": "CJK Unified Ideographs Extension B"
+  },
+  {
+    "beg": 173824,
+    "end": 177983,
+    "name": "CJK Unified Ideographs Extension C"
+  },
+  {
+    "beg": 177984,
+    "end": 178207,
+    "name": "CJK Unified Ideographs Extension D"
+  },
+  {
+    "beg": 178208,
+    "end": 183983,
+    "name": "CJK Unified Ideographs Extension E"
+  },
+  {
+    "beg": 183984,
+    "end": 191471,
+    "name": "CJK Unified Ideographs Extension F"
+  },
+  {
+    "beg": 194560,
+    "end": 195103,
+    "name": "CJK Compatibility Ideographs Supplement"
+  },
+  {
+    "beg": 917504,
+    "end": 917631,
+    "name": "Tags"
+  },
+  {
+    "beg": 917760,
+    "end": 917999,
+    "name": "Variation Selectors Supplement"
+  }
+]

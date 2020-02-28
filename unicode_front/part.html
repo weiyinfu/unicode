@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/vue/2.6.11/vue.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.19.2/axios.min.js"></script>
+    <style>
+        .char-list {
+            font-size: 40px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div>
+        <div style="font-size: 30px;font-weight: bold;">{{part.desc}}</div>
+        <div>区域个数：{{part.sub.length}}</div>
+        <div>字符个数：{{part.charCount}}</div>
+        <div>区间:[{{part.beg}},{{part.end}}]</div>
+    </div>
+    <div class="char-list" v-for="paragraph in part.sub">
+        {{paragraph}}
+        <hr>
+    </div>
+</div>
+</body>
+<script>
+    function getQuery(q) {
+        var pairs = location.search.slice(1).split('&')
+        var q = {}
+        for (var i = 0; i < pairs.length; i++) {
+            var [k, v] = pairs[i].split('=')
+            q[k] = decodeURI(v)
+        }
+        return q
+    }
+
+    var main = {
+        el: '#main',
+        data() {
+            var query = getQuery()
+            return {
+                query,
+                part: {
+                    sub: []
+                }
+            }
+        },
+        mounted() {
+            axios.get("/api/get_part", {
+                params: {
+                    part: this.query.part
+                }
+            }).then(resp => {
+                this.part = resp.data
+                this.part.charCount = this.part.sub.reduce((x, y) => x + y.length, 0)
+            })
+
+        },
+        computed: {},
+        watch: {
+            part() {
+                document.title = this.part.desc
+            }
+        }
+    }
+    var haha = null
+    document.onreadystatechange = () => {
+        if (document.readyState !== 'complete') return
+        main.el = "#main"
+        haha = new Vue(main)
+    }
+
+</script>
+</html>
