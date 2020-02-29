@@ -54,7 +54,7 @@
             }
         },
         mounted() {
-            axios.get("/api/parts").then(resp => {
+            axios.get("api/parts").then(resp => {
                 this.parts = resp.data
             })
         }

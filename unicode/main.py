@@ -16,7 +16,7 @@ https://unicode-table.com/cn/
 """
 
 app = Flask(__name__)
-curdir = os.path.abspath('.')
+curdir = os.path.abspath(os.path.dirname(__file__))
 static_folder = os.path.join(curdir, '..', 'unicode_front')
 
 
@@ -322,4 +322,4 @@ def default_page():
 
 
 if __name__ == '__main__':
-    app.run(debug=False, port=7777)
+    app.run(debug=False, port=7777,host="0.0.0.0")

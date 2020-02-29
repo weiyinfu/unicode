@@ -1,7 +1,8 @@
-探索unicode
+探索unicode,Unicode是分区域的，它有279个区域。
 
-# 结论
-Unicode是分区域的，它有279个区域。
+# 使用方法
+运行unicode/main.py
+访问localhost:7777/index.html
 
 # 相关资料
 [unicode字符百科](https://unicode-table.com/cn/blocks/mongolian/)

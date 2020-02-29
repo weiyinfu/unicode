@@ -1147,12 +1147,14 @@
   {
     "beg": 73728,
     "end": 74751,
-    "name": "Cuneiform"
+    "name": "楔形文字",
+    "english":"Cuneiform"
   },
   {
     "beg": 74752,
     "end": 74879,
-    "name": "Cuneiform Numbers and Punctuation"
+    "name":"楔形文字数字和发音",
+    "english": "Cuneiform Numbers and Punctuation"
   },
   {
     "beg": 74880,

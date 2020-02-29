@@ -117,7 +117,7 @@
             }
         },
         mounted() {
-            axios.get("/parts.json").then(resp => {
+            axios.get("parts.json").then(resp => {
                 this.parts = resp.data
                 for (var i = 0; i < this.parts.length; i++) {
                     this.parts[i].id = i
