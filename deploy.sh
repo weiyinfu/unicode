@@ -1,0 +1,1 @@
+rsync -r --progress unicode unicode_front me:~/app/unicode/

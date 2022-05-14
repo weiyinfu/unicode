@@ -1,69 +1,72 @@
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Unicode区域</title>
-    <script src="https://cdn.bootcss.com/vue/2.6.11/vue.js"></script>
-    <script src="https://cdn.bootcss.com/axios/0.19.2/axios.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Unicode区域</title>
+  <script src="https://weiyinfu.cn/cdn/vue.js"></script>
+  <script src="https://weiyinfu.cn/cdn/axios.min.js"></script>
 </head>
+
 <body>
 
-<div id="main">
+  <div id="main">
     <h1>我探索出的Unicode区域</h1><a href="./standard.html" target="_blank">点击查看标准分区</a>
     <ul>
-        <tree-node v-for="(li,ind) in parts" :key="ind" :data="li"></tree-node>
+      <tree-node v-for="(li,ind) in parts" :key="ind" :data="li"></tree-node>
     </ul>
-</div>
-<div hidden id="tree-node">
+  </div>
+  <div hidden id="tree-node">
     <li>
-        <div v-if="data.parts">
-            {{data.name}}
-            <ul>
-                <!--如果不是根节点parts-->
-                <tree-node v-for="(li,ind) in data.parts" :data="li" :key="ind"></tree-node>
-            </ul>
-        </div>
-        <div v-else>
-            <a :href="'part.html?part='+data.desc" target="_blank">{{data.desc}}</a>[{{data.beg}},{{data.end}}]
-        </div>
+      <div v-if="data.parts">
+        {{data.name}}
+        <ul>
+          <!--如果不是根节点parts-->
+          <tree-node v-for="(li,ind) in data.parts" :data="li" :key="ind"></tree-node>
+        </ul>
+      </div>
+      <div v-else>
+        <a :href="'part.html?part='+data.desc" target="_blank">{{data.desc}}</a>[{{data.beg}},{{data.end}}]
+      </div>
     </li>
-</div>
+  </div>
 </body>
 <script>
-    const components = {
-        treeNode: {
-            props: {
-                data: {
-                    type: Object,
-                    required: true
-                }
-            },
-            template: "#tree-node"//把template写在html中，并且使用hidden属性，这种方式是最好的
+  const components = {
+    treeNode: {
+      props: {
+        data: {
+          type: Object,
+          required: true
         }
+      },
+      template: "#tree-node"//把template写在html中，并且使用hidden属性，这种方式是最好的
     }
-    for (var componentName in components) {
-        var com = components[componentName]
-        com.template = document.querySelector(com.template).innerHTML
-        Vue.component(componentName, com)
+  }
+  for (var componentName in components) {
+    var com = components[componentName]
+    com.template = document.querySelector(com.template).innerHTML
+    Vue.component(componentName, com)
+  }
+  var main = {
+    el: '#main',
+    data() {
+      return {
+        parts: []
+      }
+    },
+    mounted() {
+      axios.get("api/parts").then(resp => {
+        this.parts = resp.data
+      })
     }
-    var main = {
-        el: '#main',
-        data() {
-            return {
-                parts: []
-            }
-        },
-        mounted() {
-            axios.get("api/parts").then(resp => {
-                this.parts = resp.data
-            })
-        }
-    }
-    var haha = null
-    document.onreadystatechange = () => {
-        if (document.readyState !== 'complete') return
-        main.el = "#main"
-        haha = new Vue(main)
-    }
+  }
+  var haha = null
+  document.onreadystatechange = () => {
+    if (document.readyState !== 'complete') return
+    main.el = "#main"
+    haha = new Vue(main)
+  }
 
 </script>
+
 </html>
